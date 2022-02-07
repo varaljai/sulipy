@@ -1,8 +1,6 @@
-a = True 
-while a: 
-  b = input('Adjá péénzt!')
-  if b =='igen':
-    print('köszi, majd vissza adom!')
-  elif b == 'nem':
-    print('Na akkor ma sem lesz buszjegyem.')
-  break
+szoveg = input("kérlek ajd mege gy szöveget: ")
+szam = int(input("kérlek adjmeg egy számot hogy hányoszor írjam ki a szövegedet: "))
+
+while szam > 0:
+    print(szoveg)
+    szam -= 1
